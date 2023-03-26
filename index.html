@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>!Flowers</title>
+  <!-- link for bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- This one for the button icons/icons in gen -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- FONT FOR BODY -->
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+   <!-- FONT FOR H1 -->
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <!-- Font for brand -->
+  <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
+  <!-- font fot multiple -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap" rel="stylesheet">
+  <!-- font for features -->
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap" rel="stylesheet">
+  <!-- font for testimonials  -->
+  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+  <!-- links to add JS to have the hidden menu bar -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+    <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-background">
+          <a class="navbar-brand"> FLOWERS </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="mavbar-item">
+                <a class="nav-link" href="#footer"> Contact </a>
+              </li>
+              <li class="mavbar-item">
+                <a class="nav-link" href="#features"> Details </a>
+              </li>
+              <li class="mavbar-item">
+                <a class="nav-link" href="#pricing"> Pricing </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    <!-- Nav Bar -->
+
+<!-- Title -->
+    <div class = "row">
+      <div class="col-lg-6">
+        <h1>We save you when you don't even know you need it.</h1>
+          <button type="button" class="btn btn-outline-dark btn-lg down-btn"><i class="fa-brands fa-apple fa-xl" style="color: black;"></i> Download </button>
+          <button type="button" class="btn btn-dark btn-lg down-btn"><i class="fa-brands fa-google-play fa-lg" style="color: #fcfcfc;"></i> Download </button>
+      </div>
+        <div class="col-lg-6">
+          <img class="title-img" src="images/flower-header.png" alt="ARR-EX" width="600,750,600,750">
+        </div>
+    </div>
+<!-- Title -->
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="fet-box col-lg-4">
+        <i class="icon fa-solid fa-check fa-4x"></i>
+        <h3>Easy to use!</h3>
+        <p class="under-txt">So easy to use, even drunk you can do it.</p>
+      </div>
+
+      <div class="fet-box col-lg-4">
+        <i class="icon fa-regular fa-star fa-4x"></i>
+        <h3>~ Elite quality ~</h3>
+        <p class="under-txt">We have all the flowers, the greatest plants.</p>
+      </div>
+
+      <div class="fet-box  col-lg-4">
+        <i class="icon fa-solid fa-heart fa-4x"></i>
+        <h3>Guaranteed to work.</h3>
+        <p class="under-txt">They'll be very impressed by you.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">Absolutely awesome. I forgot about our anniversary and you guys saved me</h2>
+          <img class="testimonial-img rounded" src="images/small-bouquet.jpg" alt="user-profile" width="200, 300, 200, 300">
+          <em class="signature">Johnathan, New York </em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">The most beautiful flowers I ever received in my life!</h2>
+          <img  class="testimonial-img rounded" src="images/big-bouquet.jpg" alt="user-profile" width="200, 300, 200, 300">
+          <em>Micka, New York
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-imgs" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-imgs" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-imgs" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-imgs" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+<section id="pricing">
+  <div class="card-above text-center">
+    <div class="card-body">
+      <h2>A plan for every need </h2>
+      <p>Simple and affordable price plans for you.</p>
+    </div>
+  </div>
+<!-- ........................................................ -->
+  <div class="card-deck">
+<!-- .................................. -->
+    <div class="col-md-4">
+      <div class="card">
+        <img class="cards-img" src="./images/bg-bg-1.jpg" class="card-img" alt="images here">
+      <div class="card-img-overlay">
+      <div class="card-header border-light">
+        <h2 class="header-txt"> Just in case </h2>
+      </div>
+      <div class="card-body">
+        <h2 class="card-title">Free</h2>
+        <p class="card-text">2 reminders of anniversary & birthday</p>
+        <p class="card-text">Request of arrangements on the reminder day </p>
+        <p class="card-text">Unlimited App Usage</p>
+        <button class="free-cards-btn" type="button">Sign Up</button>
+      </div>
+      </div>
+      </div>
+    </div>
+<!-- ............................................... -->
+    <div class="col-md-4">
+      <div class="card text-center border-dark mb-3">
+        <img class="cards-img" src="./images/bg-bg-1.jpg" class="card-img" alt="images here">
+      <div class="card-img-overlay">
+      <div class="card-header border-light">
+        <h2 class="header-txt">In love</h2>
+      </div>
+      <div class="card-body">
+        <h2>$39/mo</h2>
+        <p>Unlimited reminders</p>
+        <p class="card-text">1 bouquet/month</p>
+        <p class="card-text">Arrangements customization</p>
+        <p class="card-text">Delivery under 2h</p>
+        <p class="card-text">Unlimited App Usage</p>
+        <button class="cards-btn" type="button">Sign Up</button>
+      </div>
+      </div>
+      </div>
+    </div>
+<!-- ................................................... -->
+    <div class="col-md-4">
+      <div class="card">
+        <img class="cards-img" src="./images/bg-bg-1.jpg" class="card-img" alt="images here">
+      <div class="card-img-overlay">
+      <div class="card-header border-light">
+        <h2 class="header-txt">Welp!Spoil them</h2>
+      </div>
+      <div class="card-body">
+        <h2>$79/mo</h2>
+        <p class="card-text">Priority Listing</p>
+        <p class="card-text">Arrangements customization</p>
+        <p class="card-text">Get the perfect gift within 24h</p>
+        <p class="card-text">Travel/Trip advice & planning</p>
+        <p class="card-text">Non-stop delivery</p>
+        <button class="cards-btn" type="button">Sign Up</button>
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+  <!-- Call to Action -->
+
+<section id="cta">
+  <div class="card-end">
+    <h3 class="card-end-txt">~ Let them feel loved ~</h3>
+    <button class="card-end-btn" type="button">
+      <p class="card-end-btn-txt"> Download</p>
+      </button>
+    <button class="card-end-btn" type="button">
+      <p class="card-end-btn-txt"> Download </p>
+      </button>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright 2023 Ioana M !Flowers</p>
+
+  </footer>
+
+
+</body>
+
+</html>
